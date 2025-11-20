@@ -1,6 +1,6 @@
 {
       "name": "Crypto Platform Website",
-      "homepage": "https://adampharrels.github.io/CryptoWalletAssessment/",
+      "homepage": "https://adampharrels.github.io/CryptoWalletFrontend/",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
