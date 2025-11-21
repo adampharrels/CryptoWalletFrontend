@@ -4,7 +4,8 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/CryptoWalletFrontend/',
+  // Use relative base so assets are referenced relatively; this often avoids CDN/hosting path issues
+  base: './',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
